@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <!--linking css file-->
+    <link rel="stylesheet" href="style.css">
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome library  link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!--offer box-->
+    <div class="offer-bar">
+        <p>Sign Up and <b>GET 20% OFF</b> for your first Order
+            <i class="fa-solid fa-xmark" id="offer-close" style="margin-left:10%; cursor:pointer;"></i>
+        </p>
+    </div>
+
+
+    <!---------------Navbar------------>
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="./index.html">Home</a></p>
+            <p class="navbar-link"><a href="./index.html">New Arrival</a></p>
+            <p class="navbar-link"><a href="./index.html">Most Wanted</a></p>
+            <p class="navbar-link"><a href="collections.html">Collections</a></p>
+            <p class="navbar-link"><a href="./contactus.html">Contact Us</a></p>
+        </div>
+        <div class="navbar-menu-toggle">
+            <i class="fa-solid fa-bars" id="side-navbar-activate"></i>
+        </div>
+    </nav>
+
+
+    <!-------side navbar---->
+    <div class="side-navbar">
+        <p style="text-align: right;">
+            <i class="fa-solid fa-xmark" id="side-navbar-close"></i>
+        </p>
+
+
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="./index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="./index.html">New Arrival</a></p>
+            <p class="side-navbar-link"><a href="./index.html">Most Wanted</a></p>
+            <p class="side-navbar-link"><a href="./collections.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="./contactus.html">Contact Us</a></p>
+        </div>
+
+    </div>
+
+
+    <!----collections-->
+    <div class="container">
+        <!-----fiter--------->
+        <div class="divide-section">
+            <div class="filter-section">
+
+                <h3 class="filter-section-occasion">Occassion</h3>
+                <div>
+                <input type="checkbox" name="tags" value="summer">Summer<br>
+                <input type="checkbox" name="tags" value="party">Party<br>
+                <input type="checkbox" name="tags" value="beach">Beach
+            </div>
+
+                <h3 class="filter-section-colors">Colors</h3>
+                <div>
+                <input type="checkbox" name="tags" value="red">Red<br>
+                <input type="checkbox" name="tags" value="blue">Blue<br>
+                <input type="checkbox" name="tags" value="white">White<br>
+                <input type="checkbox" name="tags" value="green">Green
+             </div>
+
+                <h3 class="filter-section-arrivals">Arrivals</h3>
+                <div>
+                <input type="checkbox" name="tags" value="new">New<br>
+                <input type="checkbox" name="tags" value="old">Old
+            </div>
+            <hr class="vertical-line">
+            <!--hr is called horizontal line -->
+           </div>
+           <!--product--->
+           <div class="product-section">
+            <form class="navbar-search">
+                <input type="search" placeholder="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <div class="products">
+
+              <div class="product">
+                <img style="width:20vw;" src="images/f1.jpg">
+                <h1>Floral Summer Shirt</h1>
+                <p>₹220</p>
+              </div>                             <!-- <div class="product">product stored in html is good for a few products,static.
+                                             stored in js is good for many products,dynamic,filterable and easy to manage.-->
+                <div class="product">
+                <img style="width:20vw;" src="images/f2.jpg">
+                <h1>Summer Green</h1>
+                <p>₹260</p>
+              </div>     
+              
+              <div class="product">
+                <img style="width:20vw;" src="images/f3.jpg">
+                <h1>Party Floral Shirt</h1>
+                <p>₹399</p>
+              </div>               
+
+              <div class="product">
+                <img style="width:20vw;" src="images/f4.jpg">
+                <h1>Floral Summer Shirt</h1>
+                <p>₹399</p>
+              </div>               
+
+              <div class="product">
+                <img style="width:20vw;" src="images/f5.jpg">
+                <h1>Beach Shirt</h1>
+                <p>₹579</p>
+              </div>               
+
+              <div class="product">
+                <img style="width:20vw;" src="images/f6.jpg">
+                <h1>Shirt Party Red</h1>
+                <p>₹579</p>
+              </div>               
+
+              <div class="product">
+                <img style="width:20vw;" src="images/f3.jpg">
+                <h1>Party Floral Shirt</h1>
+                <p>₹399</p>
+              </div>    
+
+              <div class="product">
+                <img style="width:20vw;" src="images/f6.jpg">
+                <h1>Shirt Party Red</h1>
+                <p>₹579</p>
+              </div>               
+            
+
+              <div class="product">
+                <img style="width:20vw;" src="images/f1.jpg">
+                <h1>Floral Summer Shirt</h1>
+                <p>₹220</p>
+              </div>               
+
+
+            </div>
+        </div>
+     </div>
+
+
+     <!------news part-------->
+    <div class="news">
+        <h2>Join Our News Letter</h2>
+        <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts,updates,and more</p>
+        <div style="margin-top: 10px;">
+            <input class="search">
+        </div>
+        <div>
+            <button>Subscribe<i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <!------footer------>
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>The Standard chunk of lorem ipsum used since the 1500s is reprodused below for those interest</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color:#ffffff"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
+        <p class="subtitle">@ 2025 Nostra.com</p>
+    </div>
+    <!--for stretching or styling purpose[horizontally across the entire width of its parent container]
+we put class subtitle in outside the footer container]-->
+
+
+    <!--linking javascript file-->
+    <script type="module" src="collections.js"></script>
+    <!--type=module tells the browser:this script uses ES6 modules,so allow import/export and run it in strict mode-->
+</body>
+
+</html>
